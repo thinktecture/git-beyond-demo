@@ -1,6 +1,9 @@
 export interface MyGreatInterface {
   x: number;
   y: number;
+
+  minX?: number;
+  minY?: number;
 }
 
 function dummyFn({ x, y }: MyGreatInterface): number {
