@@ -1,12 +1,12 @@
+function dummyFn({ x, y }: MyGreatInterface): number {
+  return x * 2 + y;
+}
+
 export interface MyGreatInterface {
   name: string;
 
   x: number;
   y: number;
-}
-
-function dummyFn({ x, y }: MyGreatInterface): number {
-  return x * 2 + y;
 }
 
 const o1: MyGreatInterface = { x: 5, y: 10, name: "O1" };
